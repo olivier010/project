@@ -39,6 +39,8 @@ if(isset($_POST['submit'])){
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<h1>hello</h1>
+
 	<div class="content_wrapper">
 	<nav>
 		<div>

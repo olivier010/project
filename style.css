@@ -1,0 +1,19 @@
+body{
+	background-color: pink;
+}
+.content_wrapper{
+	background-color: white;
+	width: 50%;
+	margin: 200px auto;
+	padding: 50px;
+	box-shadow: 10px 10px 10px rgba(20,60,29,58);
+
+}
+#btn{ 
+	padding-top: 10px;
+ }
+
+
+
+
+

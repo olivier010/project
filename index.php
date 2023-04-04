@@ -40,7 +40,7 @@ if(isset($_POST['submit'])){
 </head>
 <body>
 
-<p>hello</p>
+
 	<div class="content_wrapper">
 	<nav>
 		<div>

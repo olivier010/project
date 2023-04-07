@@ -17,13 +17,23 @@ $conn = mysqli_connect('localhost','root','','project');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+    <style>
+        table{
+            font-size: 10px;
+        }
+        button a{
+            color:white;
+        }
+    </style>
 </head>
 <body>
     <div class="content_wrapper">
-        <button class="submit">
+        <button type="btn" class="btn btn-primary" >
             <a href="index.php">Add user</a>
         </button>
-        <table border=1>
+        <table class="table">
             <thead>
                 <tr>
                     
@@ -54,8 +64,8 @@ $conn = mysqli_connect('localhost','root','','project');
            <td>'.$password.'</td>
            <td>'.$upload.'</td>
            <td>
-           <button><a href="update.php?updateid='.$id.'">update</button>
-           <button><a href="delete.php?deleteid='.$id.'">delete</button>
+           <button type="btn" class="btn btn-success"><a href="update.php?updateid='.$id.'">update</button>
+           <button type="btn" class="btn btn-danger""><a href="delete.php?deleteid='.$id.'">delete</button>
            </td>
            </tr>';
         }

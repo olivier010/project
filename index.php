@@ -37,6 +37,7 @@ if(isset($_POST['submit'])){
 <head>
 	<title>Registration page</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
 </head>
 <body>
 
@@ -50,7 +51,7 @@ if(isset($_POST['submit'])){
 		</div>
 	</nav>
 	<div>
-		<form action="" method="post" enctype="multipart/form-data">
+		<form action="" method="post" enctype="multipart/form-data" class="form-group">
 
 			<div>
 				<h1><label>Registration Form</label></h1>
@@ -58,17 +59,17 @@ if(isset($_POST['submit'])){
 
 			<div>
 				<p>username</p>
-				<input autocomplete="off" type="text" name="username" id="" >
+				<input autocomplete="off" type="text" name="username" id="" class="form-control" >
 			</div>
 
 			<div>
 				<p>email</p>
-				<input autocomplete="off" type="text" name="email" id="" >
+				<input autocomplete="off" type="text" name="email" id="" class="form-control" >
 			</div>
 
 			<div>
 				<p>password</p>
-				<input autocomplete="off" type="password" name="password" id="" >
+				<input autocomplete="off" type="password" name="password" id="" class="form-control">
 			</div>
 			<div>
 				<p>upload</p>
@@ -76,7 +77,7 @@ if(isset($_POST['submit'])){
 			</div>
 
 			<div id="btn">
-			<input type="submit" value="Register" name="submit">
+			<button class="btn btn-secondary" name="submit">register</button>
 		</div>
 		<div>
 			<p>displayed<a href="display.php">go to view</a></p>
